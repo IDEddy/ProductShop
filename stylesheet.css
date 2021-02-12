@@ -2,25 +2,56 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-div.row{
+div.row-container{
 
 	margin-left:180px;
+	display:table;
+	width:100%;
+	
 	
 }
 
 
+.col{
+	 display: table-cell;
+  padding: 16px;
+	
+}
+
+
+div.row{
+	margin-left:180px;
+}
+
+h2{
+	font-size:20px;
+}
+
+div.srow{
+background-color: #2F4F4F;
+ 
+  
+}
+
+div.srow.h3{
+	
+	
+}
+
 
 div.page-header{
-	  display: block;
+ display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-
+  
+;
+  
 }
 
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 180px;
   position: fixed;
   z-index: 1;
   top: 0;
