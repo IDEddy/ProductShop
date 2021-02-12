@@ -28,9 +28,10 @@ h2{
 }
 
 div.srow{
-background-color: #2F4F4F;
+background-color: #006400;
  margin-left:180px;
-  
+  color:white;
+  text-align:center;
 }
 
 div.srow.h3{
