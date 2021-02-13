@@ -2,6 +2,12 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+img.img-fluid{
+	
+	height:50%;
+	
+}
+
 div.row-container{
 
 	margin-left:180px;
@@ -91,4 +97,9 @@ div.page-header{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+div.ul.a {
+  list-style-type: circle;
+  text-align:far-left;
 }
