@@ -1,0 +1,1 @@
+var topImage = "pc1";function toTop(newTop) {  domTop = document.getElementById(topImage).style;  domNew = document.getElementById(newTop).style;  domTop.zIndex = "0";  domNew.zIndex = "10";  topImage = newTop;}

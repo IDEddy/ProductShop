@@ -2,34 +2,32 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-img.img-fluid{
+
+img.img-fluid {
 	
-	height:50%;
+	height:100px;
 	
 }
 
-div.row-container{
+div.row-container {
 
 	margin-left:180px;
 	display:table;
 	width:100%;
-	
-	
 }
 
-
-.col{
+.col {
 	 display: table-cell;
   padding: 16px;
 	
 }
 
 
-div.row{
-	margin-left:180px;
-}
+ div.row {
+	margin-left:1%;
+} 
 
-div.product-row{
+div.product-row {
 	margin-left:180px;
 	text-align:center;
 	padding: 1%;
@@ -40,9 +38,9 @@ h2{
 	font-size:20px;
 }
 
-div.srow{
+div.srow {
 background-color: #006400;
- margin-left:180px;
+ margin:auto;
   color:white;
   text-align:center;
 }
@@ -54,21 +52,23 @@ div.page-header{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  
-;
-  
+    
 }
+
+
 
 .sidenav {
   height: 100%;
-  width: 180px;
+  width: 200px;
   position: fixed;
-  z-index: 1;
   top: 0;
   left: 0;
   background-color: #006400;
   overflow-x: hidden;
   padding-top: 20px;
+ 
+
+  
 }
 
 .sidenav a {
@@ -81,6 +81,7 @@ div.page-header{
 
 .sidenav a:hover {
   color: #FFFAF0;
+  
 }
 
 .main {
@@ -91,7 +92,12 @@ div.page-header{
 
 #searchButton{
 	
-	color:#FFFAF0;
+	color: #006400;
+	 margin: 0 auto;
+}
+
+#login-page {
+	position:relative;
 }
 
 @media screen and (max-height: 450px) {
@@ -102,4 +108,112 @@ div.page-header{
 div.ul.a {
   list-style-type: circle;
   text-align:far-left;
+}
+
+/*login page*/
+
+
+
+/* Container */
+.container{
+    width:40%;
+    margin:0 auto;
+}
+
+/* Login */
+#div_login{
+    border: 1px solid green;
+    border-radius: 3px;
+    width: 470px;
+    box-shadow: 0px 3px 3px 0px  green;
+    margin: 0 auto;
+}
+
+#div_login h1{
+    margin-top: 0px;
+    font-weight: normal;
+    padding: 10px;
+    background-color: #006400;
+    color: white;
+    font-family: sans-serif;
+}
+
+#div_login div{
+    clear: both;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#div_login .textbox{
+    width: 96%;
+    padding: 7px;
+}
+
+#div_login input[type=submit]{
+    padding: 10px;
+    width: 100px;
+    background-color: #006400;
+    border: 0px;
+    color: white;
+	
+}
+
+#message{
+    width:100%;
+    text-align:center;
+    color:red;
+}
+
+@media screen and (max-width:720px){
+    .container{
+        width: 100%;
+    }
+    #div_login{
+        width: 99%;
+    }
+}
+
+
+/*Image stacking*/
+
+ .pc1 {
+	 position: absolute;
+     top: center; 
+	 left: center; 
+	 z-index: 0;
+ }
+			   
+ .pc2 {
+	 position: relative;
+     top: 50px;
+	 left: 150px; 
+	 z-index: 0;
+}
+.pc3 {
+	position: relative;
+    top: 100px;
+	left: 100px;
+	z-index: 0;
+}
+
+
+/*dropdown menu*/
+
+#dropdown{
+	
+	margin:5%;
+}
+/*View cart*/
+#cartTable {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+  border: thin;
+
+}
+/*search bar*/
+#searchSuggestion{
+	width:50%;
+	margin-left:17%;
 }

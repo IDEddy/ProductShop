@@ -1,0 +1,54 @@
+[
+ {
+  "id":"1",
+  "name":"Blue",
+  "parent_id":"0"
+ }, 
+ {
+  "id":"2",
+  "name":"White",
+  "parent_id":"0"
+ }, 
+ {
+  "id":"3",
+  "name":"Red",
+  "parent_id":"0"
+ }, 
+ {
+  "id":"4",
+  "name":"Green",
+  "parent_id":"0"
+ }, 
+ {
+  "id":"5",
+  "name":"Waterloo",
+  "parent_id":"1"
+ }, 
+ {
+  "id":"6",
+  "name":"North York",
+  "parent_id":"2"
+ }, 
+ {
+  "id":"7",
+  "name":"Kitchener",
+  "parent_id":"3"
+ }, 
+ {
+  "id":"8",
+  "name":"Pickering",
+  "parent_id":"4"
+ }, 
+ {
+  "id":"9",
+  "name":"Brampton",
+  "parent_id":"3"
+ }, 
+ {
+  "id":"10",
+  "name":"Markham",
+  "parent_id":"3"
+ }
+ 
+]
+
