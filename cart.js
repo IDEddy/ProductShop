@@ -7,7 +7,6 @@ if(x.style.display === "none"){
 	}
 }
 
-	/*  alert('item added to cart');  */
 
 /* let locationName = document.getElementById("location-selection").value;
 let colourSelection = document.getElementById("colour-selection").value; */
@@ -19,7 +18,9 @@ let name = document.getElementById("item-name").innerText;
 let price = document.getElementById("item-cost").innerText;
 
   $("#addtocart").click(function(){
-    $("ol").append(" <li> " + name + "&emsp; Price:" + price + "</li>.");
+	  
+  alert('item added to cart'); 
+    $("ol").append(" <li> " + name + "&emsp; Price: " + price + "</li>.");
   });
 });
 
